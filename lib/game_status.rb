@@ -32,7 +32,7 @@ def won?(board)
       position_3 = board[win_index_3]
 
     if position_taken?(position_1) && position_taken?(position_2) && position_taken?(position_3)
-      return win_combination
+      win_combination
     else
       false
     end
