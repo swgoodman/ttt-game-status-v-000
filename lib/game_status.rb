@@ -50,5 +50,6 @@ def winner(board)
   over?(board)
   draw?(board)
     nil
+    binding.pry
   won?(board)
 end
