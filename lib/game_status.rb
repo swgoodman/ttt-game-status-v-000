@@ -20,7 +20,7 @@ WIN_COMBINATIONS = [
 
 def won(board)
   WIN_COMBINATIONS.each do |winning move|
-
+    if WIN_COMBINATIONS == true
+      return board[WIN_COMBINATIONS]
   end
 end
-  
