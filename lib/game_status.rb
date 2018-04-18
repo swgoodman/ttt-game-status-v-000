@@ -49,7 +49,7 @@ end
 def winner(board)
   if over?(board) && draw?(board)
     nil
-  else winning_combo = won?(board)
+  elsif winning_combo = won?(board)
     index = winning_combo[0]
     board[index]
   end
