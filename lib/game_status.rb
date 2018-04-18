@@ -50,5 +50,8 @@ def winner(board)
   over?(board)
   draw?(board)
     nil
-  won?(board)
+  won?(board) = winning_array
+    if winning_array[0] == "X"
+    else winning array[0] == "O"
+    end 
 end
