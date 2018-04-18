@@ -53,8 +53,9 @@ def winner(board)
     binding.pry
   won?(board)
     win_index_1 = win_combination[0]
-    win_combination[0] == "X"
+    if win_combination[0] == "X"
       "X"
-    win_combination[0] == "O"
+    else win_combination[0] == "O"
       "O"
+    end
 end
