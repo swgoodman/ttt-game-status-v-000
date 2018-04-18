@@ -50,7 +50,6 @@ def winner(board)
   over?(board)
   draw?(board)
     nil
-    binding.pry
   won?(board)
     win_index_1 = win_combination[0]
     if win_combination[0] == "X"
