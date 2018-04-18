@@ -56,5 +56,5 @@ def winner(board)
     elsif combos == "O"
       "O"
     else
-
+    end
 end
