@@ -50,6 +50,4 @@ def winner(board)
   over?(board)
   draw?(board)
     nil
-  won?(board) == "X"
-    
 end
