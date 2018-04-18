@@ -22,5 +22,6 @@ def won(board)
   WIN_COMBINATIONS.each do |winning_move|
     if WIN_COMBINATIONS == true
       return board[WIN_COMBINATIONS]
+    end
   end
 end
