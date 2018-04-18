@@ -47,10 +47,10 @@ def over?(board)
 end
 
 def winner(board)
-  over?(board)
-  draw?(board)
+  if over?(board) && draw?(board)
     nil
-  winning_combo = won?(board)
+  else winning_combo = won?(board)
     index = winning_combo[0]
     board[index]
+  end
 end
