@@ -56,5 +56,6 @@ def winner(board)
         "X"
       else win_index_1 == "O"
         "O"
+      end
     end
 end
