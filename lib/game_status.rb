@@ -49,6 +49,7 @@ end
 
 def winner(board)
   over?(board)
+  draw?(board)
   won?(board)
     WIN_COMBINATIONS.find do |win_combination|
       win_index_1 = win_combination[0]
