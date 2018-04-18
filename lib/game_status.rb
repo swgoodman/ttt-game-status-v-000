@@ -52,8 +52,9 @@ def winner(board)
   won?(board)
     WIN_COMBINATIONS.all? { |combos| combos == "X" }
       "X"
-    else
-      "O"
+      else
+        "O"
+      end
     end
-    end
+  end
 end
