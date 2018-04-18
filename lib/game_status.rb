@@ -50,7 +50,7 @@ end
 def winner(board)
   over?(board)
   won?(board)
-    WIN_COMBINATIONS.find? do |win_combination|
+    WIN_COMBINATIONS.find do |win_combination|
       win_index_1 = win_combination[0]
       if win_index_1 == "X"
         "X"
