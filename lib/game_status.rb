@@ -51,4 +51,5 @@ def winner(board)
   draw?(board)
     nil
   won?(board)
+  board[0]
 end
