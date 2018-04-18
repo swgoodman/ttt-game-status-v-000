@@ -50,11 +50,6 @@ def winner(board)
   over?(board)
   draw?(board)
     nil
-  won?(board)
-    win_index_1 = win_combination[0]
-    if win_combination[0] == "X"
-      "X"
-    else win_combination[0] == "O"
-      "O"
+  won?(board) == "X"
     end
 end
