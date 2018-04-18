@@ -52,4 +52,9 @@ def winner(board)
     nil
     binding.pry
   won?(board)
+    win_index_1 = win_combination[0]
+    win_combination[0] == "X"
+      "X"
+    win_combination[0] == "O"
+      "O"
 end
