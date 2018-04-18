@@ -22,6 +22,8 @@ def won(board)
   WIN_COMBINATIONS.each do |winning_move|
     if WIN_COMBINATIONS == true
       return "Winning Move: #{winning_move}"
+    else
+      false 
     end
   end
 end
