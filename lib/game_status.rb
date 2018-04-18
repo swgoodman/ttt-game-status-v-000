@@ -23,7 +23,7 @@ def won(board)
     if winning_move == true
       return "Winning Move: #{winning_move}"
     else
-      false 
+      false
     end
   end
 end
