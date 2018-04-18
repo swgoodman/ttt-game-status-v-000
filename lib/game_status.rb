@@ -54,9 +54,7 @@ def winner(board)
       win_index_1 = win_combination[0]
       if win_index_1 == "X"
         "X"
-      elsif win_index_1 == "O"
+      else win_index_1 == "O"
         "O"
-      else
-        nil
     end
 end
