@@ -36,5 +36,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? { |space| space.true? }
+  board.all? { |space| space.true }
 end
