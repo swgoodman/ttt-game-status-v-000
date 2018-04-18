@@ -50,11 +50,13 @@ end
 def winner(board)
   over?(board)
   won?(board)
-    WIN_COMBINATIONS.all? |combos|
-    if combos == "X"
-      "X"
-    elsif combos == "O"
-      "O"
-    else
+    WIN_COMBINATIONS.all? |win_combination|
+      win_index_1 = win_combination[0]
+      if win_index_1 == "X"
+        "X"
+      elsif win_index_1 == "O"
+        "O"
+      else
+        nil
     end
 end
