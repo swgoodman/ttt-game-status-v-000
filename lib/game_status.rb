@@ -47,7 +47,7 @@ def over?(board)
   draw?(board) || won?(board)
 end
 
-def winner?(board)
+def winner(board)
   over?(board)
   won?(board)
     if board[index] == "X"
