@@ -50,6 +50,7 @@ def winner(board)
   over?(board)
   draw?(board)
     nil
-  won?(board)
-  board[0]
+  winning_combo = won?(board)
+    index = winning_combo[0]
+    board[index]
 end
