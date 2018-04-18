@@ -51,5 +51,5 @@ def winner(board)
   draw?(board)
     nil
   won?(board) == "X"
-    end
+    
 end
