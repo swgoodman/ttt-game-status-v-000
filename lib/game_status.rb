@@ -50,7 +50,7 @@ end
 def winner(board)
   over?(board)
   won?(board)
-    if board[index] == "X"
+    if win_combination [0] == "X"
       "X"
     else
       "O"
